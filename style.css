@@ -1,0 +1,316 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    
+}
+/*#header p{
+    font-size: 12px;
+  }*/
+
+#header{
+   height: 15.5vh;
+   width: 100%;
+   background-color: rgb(255, 255, 255);
+   position: fixed;
+   display: flex;
+   align-items: center;
+   color: rgb(7, 34, 54);
+  /* font-size: 12px;
+   font-weight:500; */
+   
+
+}
+
+#logo{
+    height: 50%;
+    padding: 13px;
+    margin: 15px;
+       
+    transform: translate(8%);
+}
+
+#logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text{
+    margin: 15px;
+    display: flex;
+    font-size: larger;
+}
+.text:hover{
+    color: rgb(81, 152, 190);
+}
+#contactinf{
+  margin-left: 140px;
+  font-size:medium;
+  font-weight: lighter;
+  color: rgb(80, 78, 78);
+}
+#contactinf:hover{
+    color: rgb(81, 152, 190);
+}
+
+.icon{
+    margin-left: 15px;
+    padding: 6px;   
+    border-radius: 50px;
+}
+ .icon:hover{
+    background-color: rgb(176, 219, 242);
+    color: rgb(81, 152, 190);
+ }
+
+#login{
+    margin-left: 16px;
+    display: flex;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: larger;
+}
+#login:hover{
+    background-color: rgb(176, 219, 242);
+    color: rgb(81, 152, 190);
+}
+#try{
+    background-color: rgb(13, 115, 13);
+    padding: 12px 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    color: white;
+    font-size: larger;
+}
+#try:hover{
+    background-color: rgb(9, 57, 9);
+}
+#fakeHeader{
+    height: 15.5vh;
+    width: 100%;
+    background-color: rgb(219, 219, 241);
+}
+#page1{
+    height: 84.5vh;
+   width: 100%;
+   background-color: rgb(246, 244, 248);
+}
+#strip{
+    height: 7vh;
+    width:100% ;
+    background-color: rgb(28, 28, 111);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#strip p{
+    font-size: large;
+    font-weight:bold;
+}
+#strip u{
+    margin-left: 20px;
+    font-weight: lighter;
+    font-size:medium;
+    
+}
+#content{
+    width: 100%;
+    height: 93%;
+    background-color: rgb(253, 252, 252);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#box1{
+    height: 90%;
+    width: 48%;
+    background-color: white;
+}
+#box1 h1{
+    font-size: 54px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-weight:lighter;
+   color: rgb(23, 87, 128);
+   margin-left: 20px;
+   margin-top: 55px;
+}
+#box1 p{
+   font-size: 24px;
+   color: rgb(45, 44, 44);
+   margin: 20px;
+}
+#btns{
+   display: flex  ;
+
+   
+}
+#btn1{
+    
+    margin: 20px;
+    height: 30px;
+    width: 120px;
+    padding: 5px 5px;
+    background-color:  rgb(38, 133, 193);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid  rgb(38, 133, 193) ;
+    border-radius: 5px;
+}
+#btn1:hover{
+    background-color: rgb(7, 56, 86);
+}
+#btn2{
+    margin: 20px;
+    height: 30px;
+    width: 120px;
+    padding: 5px 5px;
+    background-color: rgb(252, 254, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: 2px solid  rgb(38, 133, 193) ;
+    color:  rgb(38, 133, 193);
+    border-radius: 5px;
+}
+#btn2:hover{
+    border-color: rgb(7, 56, 86);
+    color: rgb(7, 56, 86);
+    
+}
+
+#box2{
+    height: 90%;
+    width: 50%;
+    background-color: white;
+    
+}
+#box2 img{
+   height: 90%;
+   width: 100%;
+   object-fit:cover;
+   
+}
+
+
+#page2{
+    height: 84.5vh;
+   width: 100%;
+   background-color: rgb(151, 16, 59);
+}
+ #heading{
+    height: 14%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(11, 11, 77);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 33px;
+    font-weight:600;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+ }
+
+#mainBox{
+    display:flex;
+    height: 86%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    height: 345px;
+    width: 270px;
+    background-color: white;
+    border-radius: 15px;
+    
+    margin: 25px;
+    box-shadow: 0px 5px 10px  rgb(202, 202, 202);
+    overflow: hidden;
+    
+}
+#card1{
+    padding: 0%;    
+}
+#card2{
+    padding: 0%;  
+}
+#card3{
+    padding: 0%;   
+}
+#card4{
+    padding: 0%;   
+}
+
+#card1 img{
+    height: 50%;
+    width: 100%;
+    object-fit:cover;
+     
+}
+#card2 img{
+    height: 50%;
+    width: 100%;
+    object-fit:fill;   
+}
+#card3 img{
+    height: 50%;
+    width: 100%;
+    object-fit:fill;   
+}
+#card4 img{
+    height: 50%;
+    width: 100%;
+    object-fit:fill;   
+}
+.cardinfo{
+    height: 50%;
+    width: 100%;
+}
+
+.cardinfo h4{
+    margin-top: 10px;
+    margin-left: 18px;
+    color: rgb(16, 61, 97);
+}
+.cardinfo p{
+    margin-top: 24px;
+    margin-left: 18px;
+}
+.cardinfo u{
+    color: rgb(19, 64, 101);
+}
+
+.cardinfo u:hover{
+    color: rgb(16, 111, 206);
+    
+}
+.cardinfo h4:hover{
+    color: rgb(16, 111, 206);
+}
+
+
+
+
+
+
